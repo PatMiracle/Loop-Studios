@@ -325,6 +325,4 @@ footer p {
     align-items: center;
   }
 }
-html.sr .hero {
-  visibility: hidden;
-}
+
