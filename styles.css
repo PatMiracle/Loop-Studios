@@ -98,7 +98,7 @@ nav .nav-links {
   left: 0;
   height: 100vh;
   width: 100%;
-  padding: 2rem;
+  padding: 2.5rem 2rem;
 z-index: 2;
   transform: translateX(-1000px);
   transition: 0.5s ease-in-out;
