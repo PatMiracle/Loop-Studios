@@ -60,4 +60,4 @@ I would love to work on more complex design projects, I enjoy writing css. I wil
 
 ## Acknowledgments
 
-I would like to that Frontend Mentor for this lovely design.
+I would like to thank Frontend Mentor for this lovely design.
