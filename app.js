@@ -1,3 +1,4 @@
+import displayCreations from './creations.js'
 const navBtn = document.querySelector('.nav-btn')
 const sidebar = document.querySelector('.sidebar')
 
@@ -10,11 +11,14 @@ sidebar.addEventListener('click', () => {
   sidebar.classList.toggle('show-sidebar')
 })
 
+// display creations
+window.addEventListener('DOMContentLoaded', displayCreations())
+
 // scroll animations
 ScrollReveal().reveal('.hero', {
   origin: 'left',
   distance: '40px',
-  delay: 1000,
+  delay: 500,
   easing: 'ease-in',
 })
 ScrollReveal().reveal('img', {
