@@ -28,35 +28,38 @@
   </head>
   <body>
     <header>
-      <div class="header-center">
-        <nav>
+      <nav>
+        <div class="nav-header">
           <a href="index.html">
             <img src="./images/logo.svg" alt="logo" class="logo" />
           </a>
           <button class="nav-btn">
             <i class="fa fa-bars"></i>
           </button>
-          <ul class="nav-links">
-            <li><a href="#about">about</a></li>
-            <li><a href="https://github.com/PatMiracle">careers</a></li>
-            <li><a href="https://twitter.com/mimiDevs">events</a></li>
-            <li><a href="#creations">products</a></li>
-            <li><a href="https://twitter.com/mimiDevs">support</a></li>
-          </ul>
-        </nav>
-        <div class="hero">immersive experiences that deliver</div>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#about">about</a></li>
+          <li><a href="https://github.com/PatMiracle">careers</a></li>
+          <li><a href="https://twitter.com/mimiDevs">events</a></li>
+          <li><a href="#creations">products</a></li>
+          <li><a href="https://twitter.com/mimiDevs">support</a></li>
+        </ul>
+      </nav>
+      <img src="./images/mobile/image-hero.jpg" alt="hero" class="hero-img mobile">
+      <img src="./images/desktop/image-hero.jpg" alt="hero" class="hero-img desktop" >
+        <div class="hero-text">immersive experiences that deliver</div>
       </div>
     </header>
     <!-- sidebar -->
     <aside class="sidebar">
-      <nav>
+      <div class="nav-header">
         <a href="index.html">
           <img src="./images/logo.svg" alt="logo" class="logo" />
         </a>
         <button class="nav-btn">
           <i class="fa fa-times"></i>
         </button>
-      </nav>
+      </div>
       <ul class="nav-links">
         <li><a href="#about">about</a></li>
         <li><a href="https://twitter.com/mimiDevs">careers</a></li>
@@ -77,96 +80,20 @@
         </p>
       </article>
     </section>
-    <!-- creations moblie -->
-    <section class="creations mobile" id="creations">
-      <h2 class="title">our creations</h2>
-      <div class="img-center">
-        <div>
-          <img src="./images/mobile/image-deep-earth.jpg" alt="deep-earth" />
-          <h3 class="img-text">deep earth</h3>
-        </div>
-        <div>
-          <img
-            src="./images/mobile/image-night-arcade.jpg"
-            alt="night-arcade"
-          />
-          <h3 class="img-text">night arcade</h3>
-        </div>
-        <div>
-          <img src="./images/mobile/image-soccer-team.jpg" alt="soccer-team" />
-          <h3 class="img-text">soccer team</h3>
-        </div>
-        <div>
-          <img src="./images/mobile/image-grid.jpg" alt="the-grid" />
-          <h3 class="img-text">the grid</h3>
-        </div>
-        <div>
-          <img src="./images/mobile/image-from-above.jpg" alt="from-above" />
-          <h3 class="img-text">from up above vr</h3>
-        </div>
-        <div>
-          <img
-            src="./images/mobile/image-pocket-borealis.jpg"
-            alt="pocket-borealis"
-          />
-          <h3 class="img-text">pocket borealis</h3>
-        </div>
-        <div>
-          <img src="./images/mobile/image-curiosity.jpg" alt="curiosity" />
-          <h3 class="img-text">the curiosity</h3>
-        </div>
-        <div>
-          <img src="./images/mobile/image-fisheye.jpg" alt="fish-eye" />
-          <h3 class="img-text">make it fish eye</h3>
-        </div>
-      </div>
-      <button>see all</button>
-    </section>
-    <!-- creations desktop -->
-    <section class="creations desktop" id="creations">
-      <header>
+    <section id="creations">
+      <!-- creations moblie -->
+      <div class="creations mobile">
         <h2 class="title">our creations</h2>
+        <div class="img-center"></div>
         <button>see all</button>
-      </header>
-      <div class="img-center">
-        <div>
-          <img src="./images/desktop/image-deep-earth.jpg" alt="deep-earth" />
-          <h3 class="img-text">deep earth</h3>
-        </div>
-        <div>
-          <img
-            src="./images/desktop/image-night-arcade.jpg"
-            alt="night-arcade"
-          />
-          <h3 class="img-text">night arcade</h3>
-        </div>
-        <div>
-          <img src="./images/desktop/image-soccer-team.jpg" alt="soccer-team" />
-          <h3 class="img-text">soccer team</h3>
-        </div>
-        <div>
-          <img src="./images/desktop/image-grid.jpg" alt="the-grid" />
-          <h3 class="img-text">the grid</h3>
-        </div>
-        <div>
-          <img src="./images/desktop/image-from-above.jpg" alt="from-above" />
-          <h3 class="img-text">from up above vr</h3>
-        </div>
-        <div>
-          <img
-            src="./images/desktop/image-pocket-borealis.jpg"
-            alt="pocket-borealis"
-          />
-          <h3 class="img-text">pocket borealis</h3>
-        </div>
-        <div>
-          <img src="./images/desktop/image-curiosity.jpg" alt="curiosity" />
-          <h3 class="img-text">the curiosity</h3>
-        </div>
-        <div>
-          <img src="./images/desktop/image-fisheye.jpg" alt="fish-eye" />
-          <h3 class="img-text">make it fish eye</h3>
-        </div>
+      </div>
+      <!-- creations desktop -->
+      <div class="creations desktop">
+        <header>
+          <h2 class="title">our creations</h2>
+          <button>see all</button>
+        </header>
+        <div class="img-center"></div>
       </div>
     </section>
     <footer>
@@ -201,6 +128,6 @@
       </div>
     </footer>
     <!-- javaScript -->
-    <script src="app.js"></script>
+    <script src="app.js" type="module"></script>
   </body>
 </html>
