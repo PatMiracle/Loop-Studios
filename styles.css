@@ -68,7 +68,6 @@ nav {
   background: transparent;
   font-size: 2rem;
   color: var(--white);
-  margin-bottom: 10px;
   transition: 0.3s ease-in-out;
 }
 .nav-btn:hover {
