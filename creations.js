@@ -7,7 +7,7 @@ const mobileView = creations
   .map(({ id, text, images }) => {
     const { mobile: img } = images
     return ` 
-        <div id=${id}>
+        <div data-id=${id}>
           <img src=${img} alt=${text} />
           <h3 class="img-text">${text}</h3>
         </div> `
@@ -18,7 +18,7 @@ const desktopView = creations
   .map(({ id, text, images }) => {
     const { desktop: img } = images
     return ` 
-        <div id=${id}>
+        <div data-id=${id}>
           <img src=${img} alt=${text} />
           <h3 class="img-text">${text}</h3>
         </div> `
