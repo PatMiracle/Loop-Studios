@@ -137,7 +137,7 @@ nav .nav-links {
   }
   .hero-text {
     margin: 10% 7%;
-    font-size: 3em;
+    font-size: 4em;
   }
   .sidebar {
     display: none;
@@ -298,6 +298,7 @@ footer .nav-links {
   flex-direction: column;
   margin: 1.5rem 0;
   gap: 1rem;
+  font-size: 1.3em;
 }
 .social-icons {
   padding: 1rem 0;
